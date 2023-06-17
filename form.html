@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>The Otaku Club | Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+    <div class="menu">
+        <div class="items" id="item1" onmouseover="show(1)" onmouseleave="hide(1)">Socials</div>
+        <div class="items" id="item2" onmouseover="show(2)" onmouseleave="hide(2)">About Us</div>
+        <div class="items" id="item3">Events</div>
+        <div class="items" id="item4" onmouseover="show(4)" onmouseleave="hide(4)">Departments</div>
+        <div class="items" id="item5" onmouseover="show(5)" onmouseleave="hide(5)">Join us</div>
+    </div>
+
+    <div id="options1" onmouseover="show(1)" onmouseleave="hide(1)">
+        <div id="insta" class="socials"><a href="https://www.instagram.com/theotakuclub_vit/?hl=en">Instagram</a></div><br>
+        <div id="face" class="socials"><a href="https://www.facebook.com/theotakuclubvit/">Facebook</a></div><br>
+        <div id="linked" class="socials"><a href="https://www.linkedin.com/company/theotakuclubvitv/mycompany/">LinkedIn</a></div><br>
+        <div id="medium" class="socials"><a
+                href="https://medium.com/@theotakuclub_vit?source=topics_v2---------9-84--------------------fd91880a_ec3a_4d54_89f3_9c26b961bfa1-------17">Medium</a>
+        </div><br>
+    </div>
+
+    <div id="options2" onmouseover="show(2)" onmouseleave="hide(2)">
+        <div id="founders" class="about"><a href="https://www.instagram.com/theotakuclub_vit/?hl=en">Our Founders</a></div><br>
+        <div id="board1" class="about"><a href="https://www.facebook.com/theotakuclubvit/">Board 2022-23</a></div><br>
+        <div id="board2" class="about"><a href="https://www.linkedin.com/company/theotakuclubvitv/mycompany/">Board 2023-24</a></div><br>
+    </div>
+
+    <!-- <div id="options2" onmouseover="show2()" onmouseleave="hide2()">
+        <div id="founders" class="about"><a href="https://www.instagram.com/theotakuclub_vit/?hl=en">Our
+                Founders</a></div>
+        <br>
+        <div id="board1" class="about"><a href="https://www.facebook.com/theotakuclubvit/">Board 2022-23</a></div>
+        <br>
+        <div id="board2" class="about"><a href="https://www.linkedin.com/company/theotakuclubvitv/mycompany/">Board
+                2023-24</a></div><br>
+    </div> -->
+
+    <div id="options4" onmouseover="show(4)" onmouseleave="hide(4)">
+        <div id="act" class="depart"><a href="depart.html">Arts & Creative</a></div><br>
+        <div id="design" class="depart"><a href="depart.html">Design</a></div><br>
+        <div id="edit" class="depart"><a href="depart.html">Editorial</a></div><br>
+        <div id="manage" class="depart"><a href="depart.html">Management</a></div><br>
+        <div id="pr" class="depart"><a href="depart.html">Public Relations</a></div><br>
+    </div>
+
+    <div id="options5" onmouseover="show(5)" onmouseleave="hide(5)">
+        <div id="form" class="form"><a href="form.html">Application Form</a></div>
+        <br>
+    </div>
+
+    <form action="" id="appform">
+        <fieldset id="appfield">
+            <legend>The Otaku Club Application Form</legend><br>
+            <div id="name">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" required><br><br>
+            </div>
+
+            <div id="emailid">
+                <label for="email">Email ID:</label>
+                <input type="text" id="email" required><br><br>
+            </div>
+
+            <div class="genders">
+                <label for="">Gender:</label><br><br>
+                <input type="radio" value="male" name="gender" class="genders">Male<br>
+                <input type="radio" value="female" name="gender" class="genders">Female<br>
+                <input type="radio" value="other" name="gender" class="genders">Other<br>
+                <input type="radio" value="rns" name="gender" class="genders">Rather Not Say<br><br>
+            </div>
+
+            <div class="year">
+                <label for="">Engineering Year:</label><br><br>
+                <input type="radio" value="first" name="year" class="year">1st<br>
+                <input type="radio" value="second" name="year" class="year">2nd<br>
+                <input type="radio" value="third" name="year" class="year">3rd<br>
+                <input type="radio" value="fourth" name="year" class="year">4th<br><br>
+            </div>
+
+            <div id="special">
+                <label for="spec">Specialisation:</label>
+                <input type="text" id="spec" required><br><br>
+            </div>
+
+            <label for="describe">Tell us about yourself:</label><br><br>
+            <textarea name="describe" id="describe" cols="50" rows="15" placeholder="Type here..." required></textarea><br>
+
+            <button type="submit" id="btn">Submit</button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

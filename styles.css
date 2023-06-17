@@ -1,0 +1,310 @@
+body {
+    background-image: url('club_pic.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    overflow-y: scroll;
+  }
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    justify-content: space-around;
+    background-color: blue;
+}
+
+.items{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 116px;
+    padding-right: 116px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    align-self: center;
+    transition-duration: 0.2s;
+}
+
+#item1:hover, #item2:hover, #item3:hover, #item4:hover, #item5:hover{
+    background: white;
+}
+
+#options1{
+    display: inline-flex;
+    visibility: hidden;
+    width: 287px;
+    height: 195px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    align-items: center;
+}
+
+.socials{
+    display: flex;
+    width: 287px;
+    height: 50px;
+    margin-bottom: -20px;
+    justify-content: center;
+    background-color: blue;
+    transition-duration: 0.2s;
+    z-index: 3;
+}
+
+.socials > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    align-self: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#insta:hover, #face:hover, #linked:hover, #medium:hover{
+    background: white;
+}
+
+#options2{
+    display: inline-flex;
+    visibility: hidden;
+    margin-left: 288px;
+    width: 286px;
+    height: 148px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    align-items: center;
+}
+
+.about{
+    display: flex;
+    width: 286px;
+    height: 50px;
+    margin-bottom: -20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    background-color: blue;
+    transition-duration: 0.2s;
+    z-index: 3;
+}
+
+.about > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    align-self: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#founders:hover, #board1:hover, #board2:hover{
+    background: white;
+}
+
+#options4{
+    display: inline-flex;
+    visibility: hidden;
+    margin-left: 880px;
+    width: 270px;
+    height: 200px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    align-items: center;
+}
+
+.depart{
+    display: flex;
+    width: 318px;
+    height: 45px;
+    margin-bottom: -20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    background-color: blue;
+    transition-duration: 0.2s;
+    z-index: 3;
+}
+
+.depart > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    align-self: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#act:hover, #design:hover, #edit:hover, #manage:hover, #pr:hover{
+    background: white;
+}
+
+#options5{
+    display: inline-flex;
+    visibility: hidden;
+    margin-left: 1218px;
+    width: 270px;
+    height: 45px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    width: 265px;
+    height: 45px;
+    margin-bottom: -20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    background-color: blue;
+    transition-duration: 0.2s;
+    z-index: 3;
+}
+
+.form > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    align-self: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#form:hover{
+    background: white;
+}
+
+#appform{
+    margin-left: 315px;
+    margin-right: 300px;
+    margin-top: 105px;
+    margin-bottom: 200px;
+    width: 900px;
+    height: 700px;
+}
+
+#appfield{
+    background-color: blue;
+    width: 820px;
+    height: 770px;
+    border: 3px solid red;
+    border-radius: 3%;
+}
+
+legend{
+    text-align: center;
+    border: 3px solid red;
+    font-size: x-large;
+    background-color: blanchedalmond;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.genders, .year{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+#btn{
+    width: 100px;
+    height: 35px;
+    font-size: medium;
+    margin-left: 340px;
+    margin-right: 340px;
+    margin-top: 12px;
+    background-color: blanchedalmond;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid red;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#general{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.info{
+    background: rgb(129, 129, 129);
+    width: 700px;
+    height: 215px;
+    padding: 25px;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+.desc{
+    background: rgb(129, 129, 129);
+    width: 700px;
+    height: 200px;
+    padding: 25px;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+#goal, #arts{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+h2{
+    color:white;
+    margin-top: 0px;
+}
+
+.info > p{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -10px;
+}
+
+.desc > p{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -13px;
+}
+
+#group{
+    width: 700px;
+    height: 500px;
+    margin-left: 370px;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+.pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* #fubuki{
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    border: 2px solid white;
+    border-radius: 12px;
+} */
+
+#fubuki, #senku, #ochaco, #fairy, #harsha, #viru, #niha, #swetha{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+#more{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 700px;
+}
+
+
