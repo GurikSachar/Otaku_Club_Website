@@ -3,7 +3,8 @@
 
 <head>
 
-    <title>The Otaku Club</title>
+    <title>Design</title>
+    <link rel="icon" href="club_pic.jpg">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
 
@@ -15,46 +16,43 @@
         <div class="items" id="home"><a href="index.html">Home</a></div>
         <div class="items" id="item1" onmouseover="show(1)" onmouseleave="hide(1)">Socials</div>
         <div class="items" id="item2" onmouseover="show(2)" onmouseleave="hide(2)">About Us</div>
-        <div class="items" id="item3">Events</div>
+        <div class="items" id="item3" onmouseover="show(3)" onmouseleave="hide(3)">Events</div>
         <div class="items" id="item4" onmouseover="show(4)" onmouseleave="hide(4)">Departments</div>
         <div class="items" id="item5" onmouseover="show(5)" onmouseleave="hide(5)">Join us</div>
     </div>
 
     <div id="options1" onmouseover="show(1)" onmouseleave="hide(1)">
-        <div id="insta" class="socials"><a href="https://www.instagram.com/theotakuclub_vit/?hl=en">Instagram</a></div>
+        <div id="insta" class="soc"><a href="https://www.instagram.com/theotakuclub_vit/?hl=en">Instagram</a></div>
         <br>
-        <div id="face" class="socials"><a href="https://www.facebook.com/theotakuclubvit/">Facebook</a></div><br>
-        <div id="linked" class="socials"><a
-                href="https://www.linkedin.com/company/theotakuclubvitv/mycompany/">LinkedIn</a></div><br>
-        <div id="medium" class="socials"><a
+        <div id="face" class="soc"><a href="https://www.facebook.com/theotakuclubvit/">Facebook</a></div><br>
+        <div id="link" class="soc"><a href="https://www.linkedin.com/company/theotakuclubvitv/mycompany/">LinkedIn</a>
+        </div><br>
+        <div id="med" class="soc"><a
                 href="https://medium.com/@theotakuclub_vit?source=topics_v2---------9-84--------------------fd91880a_ec3a_4d54_89f3_9c26b961bfa1-------17">Medium</a>
         </div><br>
     </div>
 
     <div id="options2" onmouseover="show(2)" onmouseleave="hide(2)">
-        <div id="founders" class="about"><a href="https://www.instagram.com/theotakuclub_vit/?hl=en">Our Founders</a>
+        <div id="found" class="about"><a href="https://www.instagram.com/theotakuclub_vit/?hl=en">Our Founders</a>
         </div><br>
-        <div id="board1" class="about"><a href="https://www.facebook.com/theotakuclubvit/">Board 2022-23</a></div><br>
-        <div id="board2" class="about"><a href="https://www.linkedin.com/company/theotakuclubvitv/mycompany/">Board
+        <div id="b1" class="about"><a href="https://www.facebook.com/theotakuclubvit/">Board 2022-23</a></div><br>
+        <div id="b2" class="about"><a href="https://www.linkedin.com/company/theotakuclubvitv/mycompany/">Board
                 2023-24</a></div><br>
     </div>
 
-    <!-- <div id="options2" onmouseover="show2()" onmouseleave="hide2()">
-        <div id="founders" class="about"><a href="https://www.instagram.com/theotakuclub_vit/?hl=en">Our
-                Founders</a></div>
-        <br>
-        <div id="board1" class="about"><a href="https://www.facebook.com/theotakuclubvit/">Board 2022-23</a></div>
-        <br>
-        <div id="board2" class="about"><a href="https://www.linkedin.com/company/theotakuclubvitv/mycompany/">Board
-                2023-24</a></div><br>
-    </div> -->
+    <div id="options3" onmouseover="show(3)" onmouseleave="hide(3)">
+        <div id="riv" class="evs"><a href="">Riviera</a></div><br>
+        <div id="ev1" class="evs"><a href="">2020-21</a></div><br>
+        <div id="ev2" class="evs"><a href="">2021-22</a></div><br>
+        <div id="ev3" class="evs"><a href="">2022-23</a></div><br>
+    </div>
 
     <div id="options4" onmouseover="show(4)" onmouseleave="hide(4)">
-        <div id="act" class="depart"><a href="act.html">Arts & Creative</a></div><br>
-        <div id="design" class="depart"><a href="des.html">Design</a></div><br>
-        <div id="edit" class="depart"><a href="depart.html">Editorial</a></div><br>
-        <div id="manage" class="depart"><a href="depart.html">Management</a></div><br>
-        <div id="pr" class="depart"><a href="depart.html">Public Relations</a></div><br>
+        <div id="act" class="dep"><a href="act.html">Arts & Creative</a></div><br>
+        <div id="des" class="dep"><a href="des.html">Design</a></div><br>
+        <div id="edit" class="dep"><a href="edit.html">Editorial</a></div><br>
+        <div id="man" class="dep"><a href="man.html">Management</a></div><br>
+        <div id="pr" class="dep"><a href="pr.html">Public Relations</a></div><br>
     </div>
 
     <div id="options5" onmouseover="show(5)" onmouseleave="hide(5)">
@@ -63,29 +61,31 @@
     </div>
 
     <div id="general">
-        <div id="arts" class="desc">
-            <h2>Arts & Creative</h2><br>
-            <p>Arts and Creative, along with Design handles the look of our club, internal and external. Filled with
-                extremely talented individuals, they make masterpieces pertaining to all fandoms and they are a sure
-                treat
-                to the eyes. With grace, near-perfect technique and unwavering dedication, the Arts and Creative
-                department
-                gives life to their creations which are sure to stay in your head, rent-free. Without them, nobody
-                would probably look our way to see what this club has to offer. We would love a person of your talent to
-                join us in our departments. Given below are some of the artworks made by the members of the Arts and
-                Creative department.
+        <div id="design" class="desc">
+            <h2>Design</h2><br>
+            <p>Design, like Arts & Creative is a department of the club which gives life to the content which is
+                produced
+                from within our club. The members of this department being extremely skilled at what they do, use
+                softwares like Canva
+                and Figma to form the templates which are used for the posts which are put up on our page. It could be
+                for an event
+                poster, a weekly poster and most recently, our WordPress website. Like Arts & Creative, Design played a
+                very important
+                role in the club during Riviera by making invitation posters, event posters, sponsorship posters and
+                many more. Here are
+                some of the works by our talented members.
             </p>
         </div>
 
         <div class="pics">
-            <div id="pic1"><img src="fubuki.jpg" alt="A group photo is meant to be here" id="fubuki"></div>
-            <div id="pic2"><img src="senku.jpg" alt="A group photo is meant to be here" id="senku"></div>
-            <div id="pic3"><img src="ochaco.jpg" alt="A group photo is meant to be here" id="ochaco"></div>
-            <div id="pic4"><img src="fairy.jpg" alt="A group photo is meant to be here" id="fairy"></div>
-            <div id="pic5"><img src="swetha.jpg" alt="A group photo is meant to be here" id="swetha"></div>
-            <div id="pic6"><img src="niha.jpg" alt="A group photo is meant to be here" id="niha"></div>
-            <div id="pic7"><img src="viru.jpg" alt="A group photo is meant to be here" id="viru"></div>
-            <div id="pic8"><img src="harsha.jpg" alt="A group photo is meant to be here" id="harsha"></div>
+            <div id="pic1"><img src="otakon.jpg" alt="A group photo is meant to be here" id="ota"></div>
+            <div id="pic2"><img src="goku.jpg" alt="A group photo is meant to be here" id="goku"></div>
+            <div id="pic3"><img src="ss.jpg" alt="A group photo is meant to be here" id="ss"></div>
+            <div id="pic4"><img src="mon.jpg" alt="A group photo is meant to be here" id="mon"></div>
+            <div id="pic5"><img src="pos.jpg" alt="A group photo is meant to be here" id="pos"></div>
+            <div id="pic6"><img src="kuma.jpg" alt="A group photo is meant to be here" id="kuma"></div>
+            <div id="pic7"><img src="red.jpg" alt="A group photo is meant to be here" id="red"></div>
+            <div id="pic8"><img src="sport.jpg" alt="A group photo is meant to be here" id="sport"></div>
         </div>
 
         <!-- <div id="more" class="info">
