@@ -12,8 +12,8 @@ function show(num) {
         options2.style.display = 'inline-flex';
     }
     else if (num == 3) {
-        let social = document.getElementById('item3');
-        let options1 = document.getElementById('options3');
+        let events = document.getElementById('item3');
+        let options3 = document.getElementById('options3');
         options3.style.visibility = 'visible';
         options3.style.display = 'inline-flex';
     }
@@ -43,9 +43,9 @@ function hide(num) {
         options2.style.display = 'none';
     }
     else if (num == 3) {
-        let social = document.getElementById('item1');
-        let options1 = document.getElementById('options1');
-        options1.style.display = 'inline-flex';
+        let events = document.getElementById('item3');
+        let options3 = document.getElementById('options3');
+        options3.style.display = 'none';
     }
     else if (num == 4) {
         let depart = document.getElementById('item4');
