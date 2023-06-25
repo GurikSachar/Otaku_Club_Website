@@ -66,7 +66,7 @@ body {
 }
 
 /* Formatting and styling done for the anchor tags in the dropdown */
-.soc > a{
+.soc a{
     text-decoration: none;
     font-weight: bold;
     color: black;
@@ -109,7 +109,7 @@ body {
 }
 
 /* Formatting and styling done for the anchor tags in the dropdown */
-.about > a{
+.about a{
     text-decoration: none;
     font-weight: bold;
     color: black;
@@ -150,7 +150,7 @@ body {
 }
 
 /* Formatting and styling done for the anchor tags in the dropdown */
-.evs > a{
+.evs a{
     text-decoration: none;
     font-weight: bold;
     color: black;
@@ -191,7 +191,7 @@ body {
 }
 
 /* Formatting and styling done for the anchor tags in the dropdown */
-.dep > a{
+.dep a{
     text-decoration: none;
     font-weight: bold;
     color: black;
@@ -234,7 +234,7 @@ body {
 }
 
 /* Formatting and styling done for the anchor tags in the dropdown */
-.form > a{
+.form a{
     text-decoration: none;
     font-weight: bold;
     color: black;
@@ -350,7 +350,7 @@ h2{
 }
 
 /* styling for paragraphs on index.html page */
-.info > p{
+.info p{
     color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: -10px;
@@ -358,7 +358,7 @@ h2{
 }
 
 /* styling for paragraphs on arts and creative page */
-.desc > p{
+.desc p{
     color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: -13px;
