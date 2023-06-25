@@ -7,6 +7,7 @@ body {
     margin: 0px;
   }
 
+/* Spacing and formatting which is applied for the navigation bar */
 .menu{
     display: flex;
     flex-wrap: wrap;
@@ -14,6 +15,7 @@ body {
     background-color: blue;
 }
 
+/* Formatting applied for element tab of the navigation bar */
 .items{
     padding-top: 15px;
     padding-bottom: 15px;
@@ -36,6 +38,9 @@ body {
     cursor: default;
 }
 
+/* Styling for the second tab of the navigation bar */
+
+/* Formatting which is done for the entire dropdown of the second tab of navigation bar */
 #options1{
     display: inline-flex;
     visibility: hidden;
@@ -48,6 +53,7 @@ body {
     align-items: center;
 }
 
+/* Formatting and styling which is done for each tab of the dropdown */
 .soc{
     display: flex;
     width: 240px;
@@ -59,6 +65,7 @@ body {
     z-index: 3;
 }
 
+/* Formatting and styling done for the anchor tags in the dropdown */
 .soc > a{
     text-decoration: none;
     font-weight: bold;
@@ -70,7 +77,11 @@ body {
 #insta:hover, #face:hover, #link:hover, #med:hover{
     background: white;
 }
+/* Styling for the second tab of the navigation bar */
 
+/* Styling for the third tab of the navigation bar */
+
+/* Formatting which is done for the entire dropdown of the third tab of navigation bar */
 #options2{
     display: inline-flex;
     visibility: hidden;
@@ -83,6 +94,7 @@ body {
     align-items: center;
 }
 
+/* Formatting and styling which is done for each tab of the dropdown */
 .about{
     display: flex;
     width: 243px;
@@ -96,6 +108,7 @@ body {
     z-index: 3;
 }
 
+/* Formatting and styling done for the anchor tags in the dropdown */
 .about > a{
     text-decoration: none;
     font-weight: bold;
@@ -107,7 +120,9 @@ body {
 #found:hover, #b1:hover, #b2:hover{
     background: white;
 }
+/* Styling for the third tab of the navigation bar */
 
+/* Styling for the fourth tab of the navigation bar */
 #options3{
     display: inline-flex;
     visibility: hidden;
@@ -120,6 +135,7 @@ body {
     align-items: center;
 }
 
+/* Formatting which is done for the entire dropdown of the fourth tab of navigation bar */
 .evs{
     display: flex;
     width: 220px;
@@ -133,6 +149,7 @@ body {
     z-index: 3;
 }
 
+/* Formatting and styling done for the anchor tags in the dropdown */
 .evs > a{
     text-decoration: none;
     font-weight: bold;
@@ -144,7 +161,9 @@ body {
 #riv:hover, #ev1:hover, #ev2:hover, #ev3:hover{
     background: white;
 }
+/* Styling for the fourth tab of the navigation bar */
 
+/* Styling for the fifth tab of the navigation bar */
 #options4{
     display: inline-flex;
     visibility: hidden;
@@ -157,6 +176,7 @@ body {
     align-items: center;
 }
 
+/* Formatting which is done for the entire dropdown of the fifth tab of navigation bar */
 .dep{
     display: flex;
     width: 273px;
@@ -170,6 +190,7 @@ body {
     z-index: 3;
 }
 
+/* Formatting and styling done for the anchor tags in the dropdown */
 .dep > a{
     text-decoration: none;
     font-weight: bold;
@@ -181,7 +202,11 @@ body {
 #act:hover, #des:hover, #edit:hover, #man:hover, #pr:hover{
     background: white;
 }
+/* Styling for the fifth tab of the navigation bar */
 
+/* Styling for the sixth tab of the navigation bar */
+
+/* Formatting which is done for the entire dropdown of the sixth tab of navigation bar */
 #options5{
     display: inline-flex;
     visibility: hidden;
@@ -194,6 +219,7 @@ body {
     align-items: center;
 }
 
+/* Formatting which is done for the entire dropdown of the sixth tab of navigation bar */
 .form{
     display: flex;
     width: 219px;
@@ -207,6 +233,7 @@ body {
     z-index: 3;
 }
 
+/* Formatting and styling done for the anchor tags in the dropdown */
 .form > a{
     text-decoration: none;
     font-weight: bold;
@@ -218,14 +245,17 @@ body {
 #form:hover{
     background: white;
 }
+/* Styling for the sixth tab of the navigation bar */
 
+/* formatting for the space containing the divisions of the founders */
 #found-cont{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-#sam{
+/* formatting and styling for division of first, third, fifth, seventh, ninth board members */
+.odd-board{
     display: inline-flex;
     margin: 35px;
     border: 2px solid white;
@@ -234,13 +264,32 @@ body {
     height: 220px;
 }
 
-#sam-pic{
+/* formatting and styling for division of second, fourth, sixth, eighth, tenth members */
+.even-board{
+    display: inline-flex;
+    margin-left: 370px;
+    border: 2px solid white;
+    border-radius: 12px;
+    width: 1100px;
+    height: 225px;
+}
+
+/* formatting for picture of first, third, fifth, seventh, ninth members */
+.odd-pics{
     width: 270px;
     height: 220px;
     border-radius: 10px 0 0 10px;
 }
 
-.found-info{
+/* formatting for picture of second, fourth, sixth, eighth members */
+.even-pics{
+    width: 270px;
+    height: 225px;
+    border-radius: 0 10px 10px 0;
+}
+
+/* formatting and styling for information section of first, third, fifth, seventh, ninth board members */
+.odd-info{
     background-color: rgb(129, 129, 129);
     padding: 20px;
     width: 800px;
@@ -250,12 +299,25 @@ body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* formatting and styling for information section of second, fourth, sixth, eighth board members */
+.even-info{
+    background-color: rgb(129, 129, 129);
+    padding: 20px;
+    width: 800px;
+    height: 185px;
+    border-radius: 10px 0 0 10px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* formatting for space containing our goal tab, group pic and more about us */
 #general{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
+/* formatting and styling for paragraphs and headings in index.html */
 .info{
     background: rgb(129, 129, 129);
     width: 700px;
@@ -265,6 +327,7 @@ body {
     border-radius: 12px;
 }
 
+/* formatting and styling for paragraph and headings in arts and creative page */
 .desc{
     background: rgb(129, 129, 129);
     width: 700px;
@@ -286,6 +349,7 @@ h2{
     margin-top: 0px;
 }
 
+/* styling for paragraphs on index.html page */
 .info > p{
     color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -293,6 +357,7 @@ h2{
     cursor: default;
 }
 
+/* styling for paragraphs on arts and creative page */
 .desc > p{
     color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -300,6 +365,7 @@ h2{
     cursor: default;
 }
 
+/* formatting and styling for group pic on index.html */
 #group{
     width: 700px;
     height: 500px;
@@ -308,12 +374,14 @@ h2{
     border: 2px solid white;
     border-radius: 12px;
 }
+/* formatting for pics on arts and creative page */
 .pics{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
+/* styling for each pic on arts and creative page */
 #fub, #sen, #ocha, #fa, #har, #viru, #niha, #swe, #ota, #goku, #ss, #mon, #pos, #kuma, #red, #sport{
     width: 300px;
     height: 300px;
@@ -322,13 +390,14 @@ h2{
     border-radius: 12px;
 }
 
+/* formatting for more about us tab on index.html */
 #more{
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 700px;
 }
 
-
+/* formatting for application form on application form page */
 #appform{
     margin-left: 315px;
     margin-right: 300px;
@@ -338,6 +407,7 @@ h2{
     height: 700px;
 }
 
+/* styling for application form on application form page */
 #appfield{
     background-color: blue;
     width: 820px;
@@ -346,6 +416,7 @@ h2{
     border-radius: 3%;
 }
 
+/* styling for legend field of fieldset tag */
 legend{
     text-align: center;
     border: 3px solid red;
@@ -354,6 +425,7 @@ legend{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+/* styling for each of the label tags in application form */
 label{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
@@ -364,6 +436,7 @@ label{
     font-weight: bold;
 }
 
+/* formatting and styling for submit button of application form */
 #btn{
     width: 100px;
     height: 35px;
